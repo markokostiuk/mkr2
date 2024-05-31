@@ -17,3 +17,5 @@ def category_detail(request, id):
     return render(request, 'category_detail.html', {'category': category, 'recipes': recipes})
 
 
+
+
